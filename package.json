@@ -1,0 +1,9 @@
+{
+    "name": "neoguard-monorepo",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "cd neoguard-frontend && npm install && npm run build",
+        "install": "cd neoguard-frontend && npm install"
+    }
+}
