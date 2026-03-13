@@ -1035,7 +1035,7 @@ async def ws_endpoint(websocket: WebSocket, patient_id: str):
     except WebSocketDisconnect:
         manager.disconnect(patient_id, websocket)
 
-@app.get("/")
+@app.get("/api/health")
 async def root():
     return {
         "status":   "NeoGuard API v3.0 — Fully Integrated",
